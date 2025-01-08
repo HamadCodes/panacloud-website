@@ -11,32 +11,37 @@
     <nav>
         <div class="firstnav">
             <div class="socials">
-            <div class="socialsicon"><a href="" class="fa fa-facebook icons"></a></div>
-            <div class="socialsicon"><a href="" class="fa fa-twitter icons"></a></div>
-            <div class="socialsicon"><a href="" class="fa fa-google icons"></a></div>
-            <div class="socialsicon"><a href="" class="fa fa-linkedin icons"></a></div>
-            <div class="socialsicon"><a href="" class="fa fa-youtube icons"></a></div>
+                <div class="socialsicon"><a href="" class="fa fa-facebook icons"></a></div>
+                <div class="socialsicon"><a href="" class="fa fa-twitter icons"></a></div>
+                <div class="socialsicon"><a href="" class="fa fa-google icons"></a></div>
+                <div class="socialsicon"><a href="" class="fa fa-linkedin icons"></a></div>
+                <div class="socialsicon"><a href="" class="fa fa-youtube icons"></a></div>
             </div>
-
+    
             <div class="phonenumbercontainer">
-            <div class="phonenumber">
-            <i class="fa fa-phone"></i>
-            <p>12345678910</p>
-            </div>
-
-            <div class="phonenumber">
-            <i class="fa fa-phone"></i>
-            <p>12345678910</p>
+                <div class="phonenumber">
+                    <i class="fa fa-phone"></i>
+                    <p>12345678910</p>
+                </div>
+    
+                <div class="phonenumber">
+                    <i class="fa fa-phone"></i>
+                    <p>12345678910</p>
+                </div>
             </div>
             <a class="callbtn">CALL ME BACK</a>
-            </div>
-
-            
-
         </div>
-
+    
         <div class="secondnav">
             <img class="logo" src="panacloud website assest/panacloud_logo.png" alt="">
+    
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+    
             <div class="navpages">
                 <h4>WHY US</h4>
                 <h4>ABOUT</h4>
@@ -49,7 +54,20 @@
             </div>
         </div>
     </nav>
-
+    
+    <!-- Dropdown menu that will be toggled -->
+    <div class="hamburger-menu-content">
+        <a href="#">WHY US</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SERVICES</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">PROCESS</a>
+        <a href="#">REVIEWS</a>
+        <a href="#">OUR SKILLS</a>
+        <a href="#">CONTACT US</a>
+    </div>
+    
+    
     <section>
         <div class="herosection">
             <h1 class="heroheading">WE ARE EXPERTS</h1>
@@ -269,9 +287,6 @@
 
             <div class="reviews">
 
-                <div class="hline"></div>
-                <div class="vline"></div>
-
                 <div class="review review1">
                     <img src="panacloud website assest/nopfp.png" alt="">
                     <div>
@@ -309,10 +324,109 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="">
 
-        </div>
-    </section>
+        <section class="skills">
+            <h2 class="ourskillsheading">OUR <span style="color: #658e18;">SKILLS</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, assumenda quas placeat excepturi ea tenetur iusto expedita alias! Quisquam fugiat culpa rerum! Officia, dicta cupiditate fuga modi quia temporibus obcaecati?</p>
+            <div class="skills-circles">
+              <div class="skill">
+                <div class="skillscircle" id="seo-ads">
+                  <span class="percentage">45%</span>
+                </div>
+                <h3>SEO & ADS</h3>
+              </div>
+              <div class="skill">
+                <div class="skillscircle" id="graphics-design">
+                  <span class="percentage">75%</span>
+                </div>
+                <h3>GRAPHICS DESGIN</h3>
+              </div>
+              <div class="skill">
+                <div class="skillscircle" id="branding">
+                  <span class="percentage">60%</span>
+                </div>
+                <h3>BRANDING</h3>
+              </div>
+              <div class="skill">
+                <div class="skillscircle" id="web-design">
+                  <span class="percentage">80%</span>
+                </div>
+                <h3>WEB DESIGN</h3>
+              </div>
+            </div>
+          </section>
+        
+          <section class="start-project">
+            <h2 class="startyournewprojectheading">START YOUR NEW PROJECT</h2>
+            <form>
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Your Email">
+              <input type="tel" placeholder="Your Phone">
+              <button type="submit">SEND REQUEST</button>
+            </form>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quod non sint facere tenetur sed commodi libero qui minus! Iste expedita ipsum quibusdam! Quia nesciunt possimus inventore repellat sit facere!</p>
+          </section>
+        
+          <section class="contacts">
+            <h2 class="ourcontactsheading">OUR <span style="color: #658e18;">CONTACTS</span></h2>
+            <div class="contact-details">
+              <div class="contact-info">
+                <p>Location 1: (304) 386-6719</p>
+              </div>
+              <div class="contact-info">
+                <p>Location 2: (317) 011-3001</p>
+              </div>
+              <div class="contact-info">
+                <p>Email: info@panacloud.com</p>
+              </div>
+            </div>
+            <div class="map">
+              <img src="/panacloud website assest/map.PNG" alt="World map">
+            </div>
+          </section>
+        
+          <footer class="footer">
+            <div class="footerlogodiv">
+                <img src="panacloud website assest/panacloud_logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eum quam sapiente aperiam voluptates, dolorum cumque voluptatem natus.</p>
+                <p>© Panacloud 2025</p>
+            </div>
+            <div>
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                </ul>
+            </div>
+            <div class="footercontacts">
+                <h3>Contacts</h3>
+                <p>Phone 1: (304) 386-6719</p>
+                <p>Phone 2: (317) 011-3001</p>
+                <p>Email: info@website.com</p>
+                <h3>Follow Us</h3>
+                <div class="footercontacticons">           
+                    <a href="" class="fa fa-facebook"></a>
+                    <a href="" class="fa fa-twitter"></a>
+                    <a href="" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
